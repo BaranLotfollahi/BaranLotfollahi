@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   URSULA
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://BaranLotfollahi.github.io/BaranLotfollahi/gallery/"  
+  - JOURNAL: "https://BaranLotfollahi.github.io/BaranLotfollahi/journal/"
+  - ABOUT: "https://BaranLotfollahi.github.io/BaranLotfollahi/about/"
 
 # All translation keys
 translations:
