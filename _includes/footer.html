@@ -36,26 +36,18 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.unsplash_username %}
+                  
+                    {% if site.deviantart_username %}
                     <li>
-                        <a href="https://unsplash.com/{{ site.unsplash_username }}" data-toggle="tooltip" title="Unsplash">
-                            <span class="fa-stack fa-lg">
+                        <a href="https://unsplash.com/{{ site.unsplash_username }}">
+                            <span class="fa-stack fa-lg" data-toggle="tooltip" title="Unsplash">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-unsplash fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.deviantart_username %}
-                    <li>
-                        <a href="http://{{ site.deviantart_username }}.deviantart.com">
-                            <span class="fa-stack fa-lg" data-toggle="tooltip" title="Deviantart">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-deviantart fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
+                    
                     {% if site.github_username %}
                     <li>
                         <a href="https://github.com/{{ site.github_username }}" data-toggle="tooltip" title="Github">
